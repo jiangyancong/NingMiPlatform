@@ -22,6 +22,7 @@
 		4243D8691CC8C7BE002C080B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4243D8601CC8C7BE002C080B /* README.md */; };
 		4243D86A1CC8C7BE002C080B /* insuranceUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243D8621CC8C7BE002C080B /* insuranceUpdateView.m */; };
 		4243D86D1CC8C7D4002C080B /* paySucessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243D86C1CC8C7D4002C080B /* paySucessView.m */; };
+		4243D8701CC8D0EA002C080B /* payFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243D86F1CC8D0EA002C080B /* payFailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		4243D8621CC8C7BE002C080B /* insuranceUpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = insuranceUpdateView.m; sourceTree = "<group>"; };
 		4243D86B1CC8C7D4002C080B /* paySucessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paySucessView.h; sourceTree = "<group>"; };
 		4243D86C1CC8C7D4002C080B /* paySucessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paySucessView.m; sourceTree = "<group>"; };
+		4243D86E1CC8D0EA002C080B /* payFailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payFailView.h; sourceTree = "<group>"; };
+		4243D86F1CC8D0EA002C080B /* payFailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payFailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 			children = (
 				4243D8621CC8C7BE002C080B /* insuranceUpdateView.m */,
 				4243D86B1CC8C7D4002C080B /* paySucessView.h */,
+				4243D86E1CC8D0EA002C080B /* payFailView.h */,
+				4243D86F1CC8D0EA002C080B /* payFailView.m */,
 				4243D86C1CC8C7D4002C080B /* paySucessView.m */,
 			);
 			path = view;
@@ -224,6 +229,7 @@
 			files = (
 				4243D8691CC8C7BE002C080B /* README.md in Sources */,
 				4243D8471CC8C775002C080B /* ViewController.m in Sources */,
+				4243D8701CC8D0EA002C080B /* payFailView.m in Sources */,
 				4243D86A1CC8C7BE002C080B /* insuranceUpdateView.m in Sources */,
 				4243D8661CC8C7BE002C080B /* OrderConfirmController.m in Sources */,
 				4243D8681CC8C7BE002C080B /* insurance.m in Sources */,

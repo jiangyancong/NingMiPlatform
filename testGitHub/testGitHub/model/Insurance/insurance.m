@@ -1,4 +1,6 @@
 Insurance
 id
 name
-price
+Totalprice
+time
+TotalTime
