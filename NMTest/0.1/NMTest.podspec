@@ -77,10 +77,10 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
+  #s.source = {:git=> "ssh://git@github.com/qhd/NMPublic.git",:tag=>"ForSport1.99"}
   #s.source       = { :git => "https://github.com/qhd/NMPublic.git", :tag => "ForSport1.99" }
-  s.source       = { :git => "https://github.com/jiangyancong/NingMiPlatform.git", :tag => "v0.3" }
-
+  #s.source       = { :git => "https://github.com/jiangyancong/NingMiPlatform.git", :tag => "v0.3" }
+  s.source = {:git => "https://github.com/qhd/test.git"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  ="*"
-  s.exclude_files = "TestGitHub/TestGitHub/**/*.{storyboard}"
+  s.source_files  ="Test/Test/**/*.{h,m}"
+  s.exclude_files = "Test/Test/**/*.{storyboard}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -129,15 +129,14 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  
   #s.subspec 'AliPay' do |ali|
-  #   ali.source_files = "NMPublic/NMPublic/3PP/Pay/AlixPay/2014_12_08/**/*"
+  #   ali.source_files = "NMPublic/NMPublic/3PP/Pay/AlixPay/**/*.{h,m}"
   #   ali.resource = 'NMPublic/NMPublic/3PP/Pay/AlixPay/2014_12_08/AlipaySDK.bundle'
   #   ali.libraries = "crypto","ssl"
   #   ali.vendored_frameworks = "NMPublic/NMPublic/3PP/Pay/AlixPay/2014_12_08/AliPaySDK.framework"
- # end
+  #end
 end
