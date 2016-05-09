@@ -133,10 +133,13 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  s.subspec 'Analysis' do |u|
+    u.source_files = "3PP/Analysis/**/*.{h,m}"
+    u.vendored_libraries = '3PP/Analysis/**/*.a'
+  end
   #s.subspec 'AliPay' do |ali|
   #   ali.source_files = "NMPublic/NMPublic/3PP/Pay/AlixPay/**/*.{h,m}"
   #   ali.resource = 'NMPublic/NMPublic/3PP/Pay/AlixPay/2014_12_08/AlipaySDK.bundle'
   #   ali.libraries = "crypto","ssl"
   #   ali.vendored_frameworks = "NMPublic/NMPublic/3PP/Pay/AlixPay/2014_12_08/AliPaySDK.framework"
-  #end
-end
+  end
